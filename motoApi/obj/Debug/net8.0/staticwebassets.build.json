@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0YbQc2I4BXuheURG7jDY+YbBzVgczBr2Eac6Mi5PO74=",
+  "Source": "motoApi",
+  "BasePath": "_content/motoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
