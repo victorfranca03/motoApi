@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Dev\\motoApi\\motoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\repositories\\motorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:repositories\\motorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\context\\motocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:context\\motocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\motoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:motoapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:controllers\\motocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\data\\motodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:data\\motodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\models\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:models\\moto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|c:\\dev\\motoapi\\motoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C01021D3-B07A-4F49-A090-8017B1DB7223}|motoApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +34,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Title": "MotoContext.cs",
+              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Context\\MotoContext.cs",
+              "RelativeDocumentMoniker": "Context\\MotoContext.cs",
+              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\Context\\MotoContext.cs",
+              "RelativeToolTip": "Context\\MotoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:56:30.375Z",
+              "WhenOpened": "2025-01-26T02:44:53.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "motoApi",
+              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\motoApi.csproj",
+              "RelativeDocumentMoniker": "motoApi.csproj",
+              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\motoApi.csproj",
+              "RelativeToolTip": "motoApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-26T02:44:28.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MotoRepository.cs",
+              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Repositories\\MotoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\MotoRepository.cs",
+              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\Repositories\\MotoRepository.cs",
+              "RelativeToolTip": "Repositories\\MotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:42:52.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MotoController.cs",
+              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Controllers\\MotoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MotoController.cs",
+              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\Controllers\\MotoController.cs",
+              "RelativeToolTip": "Controllers\\MotoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:41:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Dev\\motoApi\\motoApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-23T01:54:53.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MotoDbContext.cs",
               "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Data\\MotoDbContext.cs",
               "RelativeDocumentMoniker": "Data\\MotoDbContext.cs",
@@ -65,19 +112,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T01:49:57.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Moto.cs",
-              "DocumentMoniker": "C:\\Dev\\motoApi\\motoApi\\Models\\Moto.cs",
-              "RelativeDocumentMoniker": "Models\\Moto.cs",
-              "ToolTip": "C:\\Dev\\motoApi\\motoApi\\Models\\Moto.cs",
-              "RelativeToolTip": "Models\\Moto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T01:42:21.823Z",
               "EditorCaption": ""
             }
           ]
