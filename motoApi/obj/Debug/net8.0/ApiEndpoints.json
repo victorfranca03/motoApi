@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "motoApi.Controllers.MotoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Moto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "motoApi.Controllers.MotoController",
+    "Method": "Create",
+    "RelativePath": "api/Moto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "moto",
+        "Type": "motoApi.Models.Moto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "motoApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

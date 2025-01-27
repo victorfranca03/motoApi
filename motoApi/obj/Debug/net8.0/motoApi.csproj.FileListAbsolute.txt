@@ -154,7 +154,6 @@ C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets\msbuild.build.motoApi.pr
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.motoApi.props
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.motoApi.props
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\motoApi.csproj.Up2Date
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\motoApi.dll
 C:\Dev\motoApi\motoApi\obj\Debug\net8.0\refint\motoApi.dll
@@ -165,3 +164,4 @@ C:\Dev\motoApi\motoApi\bin\Debug\net8.0\runtimes\linux-x64\native\libsqlite3.so
 C:\Dev\motoApi\motoApi\bin\Debug\net8.0\runtimes\osx-x64\native\libsqlite3.dylib
 C:\Dev\motoApi\motoApi\bin\Debug\net8.0\runtimes\win7-x64\native\sqlite3.dll
 C:\Dev\motoApi\motoApi\bin\Debug\net8.0\runtimes\win7-x86\native\sqlite3.dll
+C:\Dev\motoApi\motoApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

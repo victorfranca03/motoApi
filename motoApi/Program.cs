@@ -1,14 +1,20 @@
 using Microsoft.EntityFrameworkCore;
-using motoApi.Data;
-
+using motoApi.Context;
+using motoApi.Repositories;
+using motoApi.Services;
+using static motoApi.Services.MotoService;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurando o banco de dados SQLite
-builder.Services.AddDbContext<MotoDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Configurar DbContext com SQLite
+builder.Services.AddDbContext<MotoContext>(options =>
+    options.UseSqlite("Data Source=motos.db"));
 
-// Adicionando controladores e Swagger
+// Registrar serviços e repositórios
+builder.Services.AddScoped<MotoRepository>();
+builder.Services.AddScoped<MotoServices>();
+
+// Configuração padrão do ASP.NET
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -22,8 +28,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();

@@ -7,6 +7,6 @@ namespace motoApi.Context
     {
         public MotoContext(DbContextOptions <MotoContext>  options) : base(options){ }
 
-        public DbSet<Moto.Models.Moto> Motos { get; set; }
+        public DbSet<motoApi.Models.Moto> Motos { get; set; }
     }
 }
